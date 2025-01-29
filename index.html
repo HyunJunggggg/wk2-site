@@ -1,71 +1,103 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
     <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charset="utf-8" >
+        <meta name="viewport" content="width=device-width, initial-scale=1" >
         <title>Rachel's Canada life Blog</title>
 
         <!-- SEO -->
-        <meta name="description" content="The Most exciting blog!" />
-        <meta name="author" content="Rachel" />
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
-        <link rel="apple-touch-icon" href="icon.png" />
+        <meta name="description" content="The Most exciting blog!" >
+        <meta name="author" content="Rachel" >
+        <link rel="icon" href="/favicon.ico" sizes="any" >
+        <link rel="icon" href="/icon.svg" type="image/svg+xml" >
+        <link rel="apple-touch-icon" href="icon.png" >
 
         <!-- OG(Open Graph Data) -->
-        <meta property="og:title" content="" />
-        <meta property="og:type" content="" />
-        <meta property="og:url" content="" />
-        <meta property="og:image" content="" />
-        <meta property="og:image:alt" content="" />
+        <meta property="og:title" content="" >
+        <meta property="og:type" content="" >
+        <meta property="og:url" content="" >
+        <meta property="og:image" content="" >
+        <meta property="og:image:alt" content="" >
 
         <!-- CSS -->
-        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/style.css" >
 
-        <link rel="manifest" href="site.webmanifest" />
-        <meta name="theme-color" content="#fafafa" />
+        <link rel="manifest" href="site.webmanifest" >
+        <meta name="theme-color" content="#fafafa" >
     </head>
-    <body>
-        <!-- Header -->
-        <header id="header">
-            <div class="logo">
-                <h1 class="logo__font">Metrolic</h1>
-                <img class="logo__img" src="" alt="logo image" />
-            </div>
 
-            <nav class="navbar">
-                <ul class="navbar__item">
-                    <li class="navbar__items"><img src="" alt="home" /></li>
-                    <li class="navbar__items"><img src="" alt="pages" /></li>
-                    <li class="navbar__items"><img src="" alt="blogs" /></li>
-                    <li class="navbar__items"><img src="" alt="portfolio" /></li>
-                    <li class="navbar__items"><img src="" alt="email" /></li>
+    <body class="page page__home">
+        <header class="page__header">
+            <div class="page_logo">
+                <img class="page__logo--img" src="/" alt="logo__image" >
+            </div>
+        <!-- Nav -->
+            <nav class="page__navbar">
+                <ul class="page__navbar--menu">
+                    <li class="page__navbar--home">
+                        <a href="#" class="menu__link">
+                        <img src="/" alt="home" >
+                        </a>
+                    </li>
+                    <li class="page__navbar--portfolio">
+                        <a href="#" class="menu__link">
+                        <img src="/" alt="pages" >
+                    </a>
+                    </li>
+                    <li class="page__navbar--blog">
+                        <a href="#" class="menu__link">
+                        <img src="/" alt="blogs" >
+                    </a>
+                    </li>
+                    <li class="page__navbar--quo">
+                        <a href="#" class="menu__link">
+                        <img src="/" alt="portfolio" >
+                    </a>
+                    </li>
+                    <li class="page__navbar--chat">
+                        <a href="#" class="menu__link">
+                        <img src="/" alt="email" >
+                    </a>
+                    </li>
                 </ul>
             </nav>
         </header>
 
-        <!-- Main -->
-        <main>
-            <!-- page banner -->
-            <section id="banner">
-                <img class="banner__img" src="" alt="" />
-            </section>
-
+        <main class="page__main">
+        <!-- page banner -->
+        <div class="page__section page__section--hero">
+            <div class="hero_content">
+                <div class="here_title">
+                <div class="hero_title--metro">Metro Style</div>
+                <div class="hero_title--quick">Quick on the feet</div>
+                <div class="hero_title--reinvented">Metro Styling Reinvented</div>
+            <img class="page__banner--img" src="/" alt="banner image" >
+        </div>
+    </div>
+</div>
+      
             <!-- Intro  -->
-            <section class="intro">
-                <h1 class="intro__font">
+            <section class="page__intro">
+                <h1 class="page__intro--header">
                     Hey folk! We are the
-                    <span class="intro__point">Metrolics</span> team.<br />
+                    <em class="page__intro--emphasize">Metrolics</em>
+                    team.<br >
                     It sports a responsive layout with a mobile layout.theme.
                 </h1>
             </section>
+
             <!-- Service -->
-            <section id="service">
-                <h2 class="service__head">Things That We Do</h2>
-                <h3 class="service__sub">Ask us what we can do for you</h3>
-                <ul class="service__item">
-                    <li class="service__items">
-                        <img class="service__icon" src="" alt="" />
+            <section class="page__section page__section--service">
+                <header class="page__section--header">
+                <h2 class="page__service--title">Things That We Do</h2>
+                <h5 class="page__service--subtitle">
+                    Ask us what we can do for you
+                </h5>
+            </header>
+
+                <div class="page__service--item">
+                    <div class="page__service--items">
+                        <img class="page__service--icon" src="/" alt="/" >
                         <h4>Web Solutions</h4>
                         <p>
                             We are a fairly small, flexible design studio that
@@ -73,161 +105,169 @@
                             clients to fulfil their design needs. We are
                             confident you will be pleased with the results.
                         </p>
-                    </li>
-                    <li class="service_items">
-                        <img class="service__icon" src="" alt="" />
-                        <h3 class="service_item--head">Web Solutions</h3>
-                        <p class="service_item--sub">
-                            We are a fairly small, flexible design studio that
+                    </div>
+                    <div class="page__service--tems">
+                        <img class="page__serivic-icon" src="/" alt="/" >
+                        <h3 class="page__service--itemhead">Web Solutions</h3>
+                        <p class="page__service--itemsub">
+                            We are a fairly smalil, exible design studio that
                             designs for print and web. We work flexibly with
                             clients to fulfil heir design needs. We are
                             confident you will be pleased with the results.
                         </p>
-                    </li>
-                    <li class="service_items">
-                        <img class="service__icon" src="" alt="" />
-                        <h3 class="service_item--head">Web Solutions</h3>
-                        <p class="service_item--sub">
+                    </div>
+                    <div class="page__service--items">
+                        <img class="page__service--icon" src="/" alt="/" >
+                        <h3 class="page__service--itemhead">Web Solutions</h3>
+                        <p class="page__service--itemsub">
                             We are a fairly small, flexible design studio that
                             designs for print and web. We work flexibly with
                             clients to fulfil their design needs. We are
                             confident you will be pleased with the results.
                         </p>
-                    </li>
-                    <li class="service_items">
-                        <img class="service__icon" src="" alt="" />
-                        <h3 class="service_item--head">Web Solutions</h3>
-                        <p class="service_item--sub">
+                    </div>
+                    <div class="page__service--items">
+                        <img class="page__service--icon" src="/" alt="/" >
+                        <h3 class="page__service--itemhead">Web Solutions</h3>
+                        <p class="page__service_itemsub">
                             We are a fairly small, flexible design studio that
                             designs for print and web. We work flexibly with
                             clients to fulfil their design needs. We are
                             confident you will be pleased with the results.
                         </p>
-                    </li>
-                </ul>
-            </section>
-            <!-- blog -->
-            <section id="blog">
-                <h2 class="blog__head">What's up Lately?</h2>
-                <h3 class="blog__subhead">Read up on our latest work</h3>
-                <div class="blog__contents">
-                    <ul class="blog__content-group">
-                        <li class="blog__content">
-                            <div class="blog__content--date">
-                                <h4 class="blog__content--day">29</h4>
-                                <h5 class="blog__content--year">Jan.2025</h5>
-                            </div>
-                            <img
-                                class="blog__content--img"
-                                src=""
-                                alt="blog post image"
-                            />
-                            <div class="blog__content--font">
-                                <h4 class="blog__content--name">
-                                    Sample Image Post
-                                </h4>
-                                <h5 class="blog__content--subname">
-                                    Photography
-                                </h5>
-                                <div class="blog__content--color"></div>
-                            </div>
-                        </li>
-
-                        <li class="blog__content">
-                            <div class="blog__content--date">
-                                <h4 class="blog__content--day">29</h4>
-                                <h5 class="blog__content--year">Jan.2025</h5>
-                            </div>
-                            <img class="blog__content--img" src="" alt="" />
-                            <div class="blog__content--font">
-                                <h4 class="blog__content--name">
-                                    Sample Image Post
-                                </h4>
-                                <h5 class="blog__content--subname">
-                                    Photography
-                                </h5>
-                                <div class="blog__content--color"></div>
-                            </div>
-                        </li>
-
-                        <li class="blog__content">
-                            <div class="blog__content--date">
-                                <h4 class="blog__content--day">29</h4>
-                                <h5 class="blog__content--year">Jan.2025</h5>
-                            </div>
-                            <img class="blog__content--img" src="" alt="" />
-                            <div class="blog__content--font">
-                                <h4 class="blog__content--name">
-                                    Sample Image Post
-                                </h4>
-                                <h5 class="blog__content--subname">
-                                    Photography
-                                </h5>
-                                <div class="blog__content--color"></div>
-                            </div>
-                        </li>
-                    </ul>
+                    </div>
                 </div>
             </section>
+
+            <!-- blog -->
+            <section class="page__blog">
+                <header class="page__header--blog">
+                <h2 class="blog__head">What's up Lately?</h2>
+                <h5 class="blog__subhead">Read up on our latest work</h5>
+                </header>
+
+                <div class="blog__contents">
+                    <article class="blog__card">
+                        <header class="blog__header">
+                            <h3 class="page__blog--name">Sample Image Post </h3>
+                            <p class="page__blog--subname"> Photography </p>
+                            <img class="blog__img" src="/" alt="blog-image">
+                            </header>
+
+                            <div class="blog__content--date">
+                                <img src="/" alt="imgage for blog" class="blog__icon">
+                                <div class="blog__date--day">
+                                    <span class="blog__date">29</span>
+                                    <span class="blog__date--month">Jan.</span>
+                                    <span class="blog__date--year">2025</span>
+                                </div>
+                            </div>
+                    </article>
+
+                    <article class="blog__card">
+                        <header class="blog__header">
+                            <h3 class="page__blog--name">Sample Image Post </h3>
+                            <p class="page__blog--subname"> Photography </p>
+                            <img class="blog__img" src="/" alt="blog-image">
+                            </header>
+
+                            <div class="blog__content--date">
+                                <img src="/" alt="imgage for blog" class="blog__icon">
+                                <div class="blog__date--day">
+                                    <span class="blog__date">29</span>
+                                    <span class="blog__date--month">Jan.</span>
+                                    <span class="blog__date--year">2025</span>
+                                </div>
+                            </div>
+                    </article>
+
+                    <article class="blog__card">
+                        
+                        <header class="blog__header">
+                            <h3 class="page__blog--name">Sample Image Post </h3>
+                            <p class="page__blog--subname"> Photography </p>
+                            <img class="blog__img" src="/" alt="blog-image">
+                            </header>
+
+                            <div class="blog__content--date">
+                                <img src="/" alt="imgage for blog" class="blog__icon">
+                                <div class="blog__date--day">
+                                    <span class="blog__date">29</span>
+                                    <span class="blog__date--month">Jan.</span>
+                                    <span class="blog__date--year">2025</span>
+                                </div>
+                            </div>
+                    </article>
+
+                </div>
+            </section>
+
             <!-- Portfoilo -->
-            <section id="portfolio">
+            <section class="page__portfolio">
+                <header class="page__hader--portfolio">
                 <h2 class="portfolio__title">Our Best Work. Period.</h2>
-                <h3 class="portfolio_subtitle">Client happy? We are happy.</h3>
+                <h5 class="portfolio__subtitle">Client happy? We are happy.</h5>
+                </header>
+
                 <div class="projects">
-                    <ul class="projects__selection">
-                        <li class="project">
-                            <img class="project__img" src="" alt="" />
-                        </li>
-                        <li class="project">
-                            <img class="project__img" src="" alt="" />
-                        </li>
-                        <li class="project">
-                            <img class="project__img" src="" alt="" />
-                        </li>
-                        <li class="project">
-                            <img class="project__img" src="" alt="" />
-                        </li>
-                        <li class="project">
-                            <img class="project__img" src="" alt="" />
-                        </li>
-                        <li class="project">
-                            <img class="project__img" src="" alt="" />
-                        </li>
-                    </ul>
+                   <div>
+                        <div class="project">
+                            <img class="project__img" src="/" alt="/" >
+                        </div>
+                        <div class="project">
+                            <img class="project__img" src="/" alt="/" >
+                        </div>
+                        <div class="project">
+                            <img class="project__img" src="/" alt="/" >
+                        </div>
+                        <div class="project">
+                            <img class="project__img" src="/" alt="/" >
+                        </div>
+                        <div class="project">
+                            <img class="project__img" src="/" alt="/" >
+                        </div>
+                        <div class="project">
+                            <img class="project__img" src="/" alt="/" >
+                        </div>
+                    </div>
                 </div>
             </section>
 
             <!-- clients-->
-            <section id="clients">
+            <section class="clients">
+                <header class="page__header--client">
                 <h2 class="clients__title">Satisfaction Guaranteed</h2>
-                <h3 class="clients__subtitle">
+                <h5 class="clients__subtitle">
                     Past clients stoked with our work. We are not happy until
                     YOU are happy.
-                </h3>
-                <ul class="clients__lists">
-                    <li class="clients__lists">
-                        <img src="" alt="" />
-                    </li>
-                    <li class="clients__lists">
-                        <img src="" alt="" />
-                    </li>
-                    <li class="clients__lists">
-                        <img src="" alt="" />
-                    </li>
-                    <li class="clients__lists">
-                        <img src="" alt="" />
-                    </li>
-                    <li class="clients__lists">
-                        <img src="" alt="" />
-                    </li>
-                </ul>
+                </h5>
+                </header>
+
+                <div class="clients__lists">
+                    <div class="clients__lists">
+                        <img src="/" alt="/" >
+                    </div>
+                    <div class="clients__lists">
+                        <img src="/" alt="/" >
+                    </div>
+                    <div class="clients__lists">
+                        <img src="/" alt="/" >
+                    </div>
+                    <div class="clients__lists">
+                        <img src="/" alt="/" >
+                    </div>
+                    <div class="clients__lists">
+                        <img src="/" alt="/" >
+                    </div>
+                </div>
             </section>
+
         </main>
 
         <!-- footer -->
-        <footer id="footer">
+        <footer class="footer">
             <div class="footer__ceo">
-                <img class="footer__ceo--img" src="" alt="" />
+                <img class="footer__ceo--img" src="/" alt="/" >
                 <p class="footer__ceo--p">
                     Alf has over 10 years experience in the industry. He is our
                     Creative Director, digital designer, web designer and
@@ -239,8 +279,8 @@
             </div>
 
             <div class="footer__contents">
-                <ul class="footer__content">
-                    <li class="footer__about">
+                <div class="footer__content">
+                    <div class="footer__about">
                         <h3 class="footer__about--title">About Us</h3>
                         <div class="footer__about--under"></div>
                         <p class="footer__about--p">
@@ -255,36 +295,36 @@
                             Underweaaar potatoooo tank yuuu! Aaaaaah potatoooo
                             poopayee.
                         </p>
-                    </li>
-                    <li class="footer__content">
+                    </div>
+                    <div class="footer__content">
                         <h3 class="footer__ig--title">Instagram</h3>
                         <div class="footer__ig--under"></div>
                         <a class="footer__ig--content">
-                            <img class="footer__ig--img" src="" alt="" />
+                            <img class="footer__instagram--img" src="/" alt="/" >
                         </a>
                         <a class="footer__ig--content">
-                            <img class="footer__ig--img" src="" alt="" />
+                            <img class="footer__instagram--img" src="/" alt="/" >
                         </a>
                         <a class="footer__ig--content">
-                            <img class="footer__ig--img" src="" alt="" />
+                            <img class="footer__instagram--img" src="/" alt="/" >
                         </a>
                         <a class="footer__ig--content">
-                            <img class="footer__ig--img" src="" alt="" />
+                            <img class="footer__instagram--img" src="/" alt="/" >
                         </a>
                         <a class="footer__ig--content">
-                            <img class="footer__ig--img" src="" alt="" />
+                            <img class="footer__instagram--img" src="/" alt="/" >
                         </a>
                         <a class="footer__ig--content">
-                            <img class="footer__ig--img" src="" alt="" />
+                            <img class="footer__instagram--img" src="/" alt="/" >
                         </a>
-                    </li>
-                    <li class="footer__content">
+                    </div>
+                    <div class="footer__content">
                         <h3 class="footer__news--title">
                             What’s New on Mastodon
                         </h3>
                         <div class="footer__news--under"></div>
-                        <p class="footer__news--p">
-                            <span class="footer__news--id">@Minions </span> -
+                        <p class="footer__news--post">
+                            <em class="footer__news--em">@Minions </em> -
                             ipsum banana potatoooo uuuhhh. Chasy poulet tikka
                             masala jiji wiiiii hahaha tulaliloo potatoooo. Bee
                             do bee do bee do chasy ti aamoo! Po kass daa b ee do
@@ -295,8 +335,8 @@
                             bananaaa! Underweaaar potatoooo tank yuuu! Aaaaaah
                             potatoooo poopayee.
                         </p>
-                        <p class="footer__news--p">
-                            <span class="footer__news--id">@Minions </span>
+                        <p class="footer__news--post">
+                            <em class="footer__news--em">@Minions </em>
                             - ipsum banana potatoooo uuuhhh. Chasy poulet tikka
                             masala jiji wiiiii hahaha tulaliloo potatoooo. Bee
                             do bee do bee do chasy ti aamoo! Po kass daa b ee do
@@ -307,8 +347,8 @@
                             bananaaa! Underweaaar potatoooo tank yuuu! Aaaaaah
                             potatoooo poopayee.
                         </p>
-                        <p class="footer__news--p">
-                            <span class="footer__news--id">@Minions </span>-
+                        <p class="footer__news--post">
+                            <em class="footer__news--em">@Minions </em>-
                             ipsum banana potatoooo uuuhhh. Chasy poulet tikka
                             masala jiji wiiiii hahaha tulaliloo potatoooo. Bee
                             do bee do bee do chasy ti aamoo! Po kass daa b ee do
@@ -319,28 +359,37 @@
                             bananaaa! Underweaaar potatoooo tank yuuu! Aaaaaah
                             potatoooo poopayee.
                         </p>
-                    </li>
-                    <li class="footer__media">
+                    </div>
+
+                    <div class="footer__media">
                         <h3 class="footer__media--title">Track us!</h3>
                         <div class="footer__news--under"></div>
                         <div class="footer__news">
-                            <img class="footer__news--img" src="" alt="" />
-                            <img class="footer__news--img" src="" alt="" />
-                            <img class="footer__news--img" src="" alt="" />
-                            <img class="footer__news--img" src="" alt="" />
-                            <img class="footer__news--img" src="" alt="" />
+                            <a href="" class="media__icon">
+                                <img class="footer__news--img" src="/" alt="/" >
+                            </a>
+                            <a href="" class="media__icon">
+                                <img class="footer__news--img" src="/" alt="/" >
+                            </a>
+                            <a href="" class="media__icon">
+                                <img class="footer__news--img" src="/" alt="/" >
+                            </a>
+                            <a href="" class="media__icon">
+                                <img class="footer__news--img" src="/" alt="/" >
+                            </a>
+                            <a href="" class="media__icon">
+                                <img class="footer__news--img" src="/" alt="/" >
+                            </a>
                         </div>
-                        <div class="footer__email">
-                            <a
-                                class="footer__email_type"
-                                href="mailto:ple@example.com"
-                            >
-                                Enter your Email...</a
-                            >
-                            <img class="footer__email--icon" src="" alt="" />
-                        </div>
-                    </li>
-                </ul>
+                        <form class="media__news--form" aria-label="media news signup">
+                            <label for="email" class="media__label">Enter your email</label>
+                            <input type="email" id="email" name="email" class="media__input" 
+                                placeholder="Enter your Email..." required>
+                            <button type="submit" class="media-button" aria-label="Subscribe">
+                            <img src="/" alt="Sending email icon" class="sendemail"></button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </footer>
         <!-- Javascript -->
